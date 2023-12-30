@@ -32,8 +32,8 @@ STR_SB_WARNING_1         :Es existieren mehr Städte auf der Karte als das Spiel
 STR_SB_WARNING_2         :Die Initialisierung der Frachtliste ist gescheitert. Dies wurde durch ein unbekanntes Industrie-newGRF bewirkt, für welches eine Erstellung der Frachtliste nicht möglich war. {RED}Das Spielskript wurde ausgeschaltet.{BLACK}
 STR_SB_WARNING_3         :Die Initialisierung der Frachtliste ist gescheitert. Es wurde durch die Option ausgelöst, die Industrien zu randomisieren, wofür eine Frachtliste nicht erstellt werden konnte. {RED}Das Spielskript wurde ausgeschaltet.{BLACK}
 STR_SB_WARNING_4         :Der Parameter {ORANGE}Environment->Towns->Town growth speed{BLACK} muss zu etwas anderem als "None" verändert werden. {RED}Das Spielskript wurde ausgeschaltet.{BLACK}
-STR_SB_WELCOME_TITLE     :Renewed Village Growth {NUM}.{NUM}
-STR_SB_WELCOME_DESC      :{SILVER}Renewed Village Growth (RVG){BLACK} ist ein Spielskript, welches in OpenTTD {ORANGE}die Art des Städtewachstums ändert{BLACK}. Für jede Stadt existieren verschiedene Güterbedürfnisse, welche - teilweise oder komplett - monatlich gestillt werden müssen, um die Städte schneller wachsen zu lassen. Mehr Informationen lassen sich in der {ORANGE}Readme-Datei{BLACK} finden.
+STR_SB_WELCOME_TITLE     :New Renewed Village Growth {NUM}.{NUM}
+STR_SB_WELCOME_DESC      :{SILVER}New Renewed Village Growth (NRVG){BLACK} ist ein Spielskript, welches in OpenTTD {ORANGE}die Art des Städtewachstums ändert{BLACK}. Für jede Stadt existieren verschiedene Güterbedürfnisse, welche - teilweise oder komplett - monatlich gestillt werden müssen, um die Städte schneller wachsen zu lassen. Mehr Informationen lassen sich in der {ORANGE}Readme-Datei{BLACK} finden.
 STR_SB_WELCOME_CARGO     :Die Wirtschaft von {SILVER}{STRING}{BLACK} besteht aus {SILVER}{NUM} Kategorien{BLACK}. Um einer Kategorie zu genügen, liefern sie eine oder mehr der kategoriespezifischen Frachtarten zu einem {ORANGE}Bahnhof in der Nähe der Stadt, welcher die jeweilige Frachtart akzeptiert{BLACK}. Übererfüllen sie die angeführten Bedürfnisse um {SILVER}{NUM}%{BLACK}, um {ORANGE}die Stadt schneller wachsen zu lassen{BLACK}. Mehr Informationen über die Frachtkategorien befinden sich auf der {ORANGE}Chronikseite der Frachtkategorien{BLACK}.
 STR_SB_WELCOME_LIMIT_GROWTH         :{SILVER}{CARGO_LIST}{BLACK} einer Stadt kann deren {ORANGE}Wachstum stoppen{BLACK}. Transportieren sie mindestens {SILVER}{NUM}%{BLACK} dieser Frachtart um {ORANGE}Städtewachstum zu erlauben{BLACK}. {STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :Das Wachstum stoppt, wennn diese Bedingung {SILVER}{NUM} Monate{BLACK} lang nicht erfüllt wurde.
@@ -105,7 +105,7 @@ STR_ECONOMY_XIS_LOT             :XIS The Lot
 STR_ECONOMY_OTIS                :OTIS
 STR_ECONOMY_IOTC                :Industries of the Caribbean
 STR_ECONOMY_LUMBERJACK          :Lumberjack Industries
-STR_ECOMONY_WRBI                :Wannaroo Basic Industries
+STR_ECONOMY_WRBI                :Wannaroo Basic Industries
 STR_ECONOMY_ITI2                :Improved Town Industries
 STR_ECONOMY_REAL                :Real Industries
 

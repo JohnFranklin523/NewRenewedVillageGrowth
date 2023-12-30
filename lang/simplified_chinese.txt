@@ -18,6 +18,7 @@ STR_CARGOCAT_LABEL_11    :类别 IV
 STR_CARGOCAT_LABEL_12    :类别 V
 
 ##### STORY BOOK #####
+STR_SB_PEAKS_AND_TROUGHS :　　早晚高峰模式开启. 客流量在早晚高峰时极大, 凌晨时极小. 目前客流模型为 {NUM} (1 - Hyperpeak, 2 - Equal Peaks, 3 - Japan). 更多信息请查看 https://www.tt-forums.net/viewtopic.php?t=87840.
 STR_SB_TITLE_1           :货物类别
 STR_SB_EXPLAIN_1         :这些是被城镇需求的货物类别，每个类别都包括不同的货物类型。为了达到某个类别的需求，你可以交付任何属于该类别的货物。
 STR_SB_EXPLAIN_2         :这些是被城镇需求的货物类别，每个类别都包括不同的货物类型。每个城镇从每个类别中选择{STRING}。要达到某个类别的需求，你可以交付城镇所需的任何货物，如"城镇信息"窗口中所示。
@@ -32,8 +33,8 @@ STR_SB_WARNING_1         :地图上的城镇数量超出了游戏脚本可以保
 STR_SB_WARNING_2         :货物列表初始化失败.存在未知的工业NewGRF导致无法进行程序性的货物列表创建.{RED}已禁用游戏脚本.{BLACK}
 STR_SB_WARNING_3         :货物列表初始化失败.存在工业随机化选项导致无法创建程序性工业类别.{RED}已禁用游戏脚本.{BLACK}
 STR_SB_WARNING_4         :必须将参数{ORANGE}环境->城镇->城镇增长速度 (Environment->Towns->Town groth speed){BLACK}设置为其他选项.{RED}已禁用游戏脚本.{BLACK}
-STR_SB_WELCOME_TITLE     :新发展 (Renewed Village Growth) {NUM}.{NUM}
-STR_SB_WELCOME_DESC      :{SILVER}　　新发展 (RVG) {BLACK}是一款游戏脚本。{ORANGE}RVG改变了OpenTTD中城镇的发展模式{BLACK}且为每个城镇增加了货物需求。更多信息请参阅{ORANGE}README文件{BLACK}。
+STR_SB_WELCOME_TITLE     :新新发展 (New Renewed Village Growth) {NUM}.{NUM}
+STR_SB_WELCOME_DESC      :{SILVER}　　新新发展 (NRVG) {BLACK}是一款游戏脚本。{ORANGE}NRVG改变了OpenTTD中城镇的发展模式{BLACK}且为每个城镇增加了货物需求。更多信息请参阅{ORANGE}README文件{BLACK}。
 STR_SB_WELCOME_CARGO     :　　当前选择的经济系统"{SILVER}{STRING}{BLACK}"包括{SILVER}{NUM}个类别的货物{BLACK}。要满足一个类别的货物的需求，须将一个或多个该类别的货物运输至{ORANGE}接受该货物类型的城镇附近的车站{BLACK}。若需求被满足的百分比高于{SILVER}{NUM}%{BLACK}将{ORANGE}加速城镇增长{BLACK}。有关货物类别的更多信息，请参阅{ORANGE}货物类别说明书页{BLACK}。
 STR_SB_WELCOME_LIMIT_GROWTH         :{SILVER}　　来自城镇的{CARGO_LIST}{BLACK}若未被运输将{ORANGE}暂停城镇发展{BLACK}。须运输至少{SILVER}{NUM}%{BLACK}的货物以开始{ORANGE}城镇发展{BLACK}。{STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :若此需求未被满足则将在{SILVER}{NUM}个月后暂停城镇发展。
@@ -104,7 +105,7 @@ STR_ECONOMY_XIS_LOT             :XIS The Lot
 STR_ECONOMY_OTIS                :OTIS
 STR_ECONOMY_IOTC                :Industries of the Caribbean
 STR_ECONOMY_LUMBERJACK          :Lumberjack Industries
-STR_ECOMONY_WRBI                :Wannaroo Basic Industries
+STR_ECONOMY_WRBI                :Wannaroo Basic Industries
 STR_ECONOMY_ITI2                :Improved Town Industries
 STR_ECONOMY_REAL                :Real Industries
 

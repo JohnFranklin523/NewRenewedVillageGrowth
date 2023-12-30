@@ -4,12 +4,14 @@ class StoryEditor
     eternal_love = null;
     limit_min_transport = null;
     limiter_delay = null;
+    peaks_preset = null;
 
     sp_cargo = null;
     sp_custom = null;
     sp_warning = null;
 
     constructor() {
+        this.peaks_preset = GSController.GetSetting("preset");
         this.supply_impacting_part = GSController.GetSetting("supply_impacting_part");
         this.eternal_love = GSController.GetSetting("eternal_love");
         this.limit_min_transport = GSController.GetSetting("limit_min_transport");
@@ -20,6 +22,7 @@ class StoryEditor
 /* Checks if any parameters were changed and modifies the story page to reflect the change */
 function StoryEditor::CheckParameters(companies)
 {
+    local peaks_preset = GSController.GetSetting("preset");
     local supply_impacting_part = GSController.GetSetting("supply_impacting_part");
     local eternal_love = GSController.GetSetting("eternal_love");
     local limit_min_transport = GSController.GetSetting("limit_min_transport");
@@ -28,7 +31,8 @@ function StoryEditor::CheckParameters(companies)
     if (this.supply_impacting_part != supply_impacting_part
             || this.eternal_love != eternal_love
             || this.limit_min_transport != limit_min_transport
-            || this.limiter_delay != limiter_delay) {
+            || this.limiter_delay != limiter_delay 
+            || this.peaks_preset != peaks_preset) {
 
         foreach (company in companies) {
             local sp_welcome_elements = GSStoryPageElementList(company.sp_welcome);
@@ -40,6 +44,7 @@ function StoryEditor::CheckParameters(companies)
             this.eternal_love = eternal_love;
             this.limit_min_transport = limit_min_transport;
             this.limiter_delay = limiter_delay;
+            this.peaks_preset = peaks_preset;
 
             this.WelcomePage(company.sp_welcome);
         }
@@ -57,6 +62,10 @@ function StoryEditor::WelcomePage(sp_welcome)
     
     GSStoryPage.NewElement(sp_welcome, GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_SB_WELCOME_CARGO, GSText(GSText.STR_ECONOMY_NONE + ::Economy), ::CargoCatNum, this.supply_impacting_part));
     GSStoryPage.NewElement(sp_welcome, GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_SB_WELCOME_STATISTICS));
+
+    if (this.peaks_preset > 0) {
+        GSStoryPage.NewElement(sp_welcome, GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_SB_PEAKS_AND_TROUGHS, this.peaks_preset));
+    }
 
     if (this.limit_min_transport > 0) {
         local limiter_cargos = 0;

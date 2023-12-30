@@ -32,8 +32,8 @@ STR_SB_WARNING_1         :Hai máis vilas no mapa das que o script pode gardar. 
 STR_SB_WARNING_2         :A inicialización da lista de cargas fallou. Foi causado por un NewGRF de industria descoñecido no cal non é posible crear unha lista de cargas procedurais. {RED}O script de xogo está apagado.{BLACK}
 STR_SB_WARNING_3         :A inicialización da lista de cargas fallou. Foi causado por unha opción de aleatoriedade de industrias no cal non é posible crear unha lista de cargas procedurais. {RED}O script de xogo está apagado.{BLACK}
 STR_SB_WARNING_4         :Debes configurar o parámetro {ORANGE}Contorno->Cidades->Velocidade de crecemento das cidades{BLACK} a outra opción distinta a Ningún. {RED}O script de xogo está apagado.{BLACK}
-STR_SB_WELCOME_TITLE     :Crecemento renovado das vilas {NUM}.{NUM}
-STR_SB_WELCOME_DESC      :{SILVER}Crecemento renovado das vilas (RVG){BLACK} é un script de xogo que {ORANGE}modifica o xeito no que medran as vilas{BLACK} en OpenTTD. Defínense varios requisitos de carga para cada vila que precisan ser - parcial ou totalmente - satisfeitos mensualmente para facer medrar as vilas máis rápido. Podes atopar máis información no {ORANGE}arquivo Leeme{BLACK}.
+STR_SB_WELCOME_TITLE     :Nova crecemento renovado das vilas {NUM}.{NUM}
+STR_SB_WELCOME_DESC      :{SILVER}Nova crecemento renovado das vilas (NRVG){BLACK} é un script de xogo que {ORANGE}modifica o xeito no que medran as vilas{BLACK} en OpenTTD. Defínense varios requisitos de carga para cada vila que precisan ser - parcial ou totalmente - satisfeitos mensualmente para facer medrar as vilas máis rápido. Podes atopar máis información no {ORANGE}arquivo Leeme{BLACK}.
 STR_SB_WELCOME_CARGO     :A economía de {SILVER}{STRING}{BLACK} consiste en {SILVER}{NUM} categorías{BLACK}. Para cubrir unha categoría, entrega unha ou máis das categorías específicas de carga da categoría a unha {ORANGE}estación preto da vila que acepte ese tipo de carga{BLACK}. Cumpre os requerimentos por enriba dun {SILVER}{NUM}%{BLACK} para {ORANGE}facer que as vilas medren máis rápido{BLACK}. Máis información acerca das categorías de carga amósase na {ORANGE} páxina de categorías de carga do historial (anterior){BLACK}.
 STR_SB_WELCOME_LIMIT_GROWTH         :{SILVER}{CARGO_LIST}{BLACK} dunha vila poden {ORANGE}DETER o crecemento da vila{BLACK}. Transporta polo menos {SILVER}{NUM}%{BLACK} deses tipos de carga para {ORANGE}permitir que a vila medre{BLACK}. {STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :O crecemento detense tras {SILVER}{NUM} meses{BLACK} sen cumprir este requerimento.
@@ -105,7 +105,7 @@ STR_ECONOMY_XIS_LOT             :XIS The Lot
 STR_ECONOMY_OTIS                :OTIS
 STR_ECONOMY_IOTC                :Industries of the Caribbean
 STR_ECONOMY_LUMBERJACK          :Lumberjack Industries
-STR_ECOMONY_WRBI                :Wannaroo Basic Industries
+STR_ECONOMY_WRBI                :Wannaroo Basic Industries
 STR_ECONOMY_ITI2                :Improved Town Industries
 
 ##### ETERNAL LOVE #####

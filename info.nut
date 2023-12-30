@@ -13,18 +13,28 @@ require("version.nut");
 
 class MainClass extends GSInfo
     {
-    function GetAuthor()                { return "Firrel"; }
-    function GetName()                  { return "Renewed Village Growth"; }
-    function GetShortName()             { return "REVI"; }
+    function GetAuthor()                { return "Firrel, Erato, and John Franklin"; }
+    function GetName()                  { return "New Renewed Village Growth"; }
+    function GetShortName()             { return "NRVG"; }
     function GetDescription()           { return "Towns require various cargo deliveries to grow. Required cargos can be randomized. Town growth is limited by percentage of transported specific cargos. Supporting most Industry NewGRF sets."; }
-    function GetURL()                   { return "https://www.tt-forums.net/viewtopic.php?f=65&t=87052"; }
+    function GetURL()                   { return "https://www.tt-forums.net/viewtopic.php?t=91068"; }
     function GetVersion()               { return SELF_VERSION; }
     function GetDate()                  { return SELF_DATE; }
-    function GetAPIVersion()            { return "1.10"; }
+    function GetAPIVersion()            { return "1.2"; }
     function MinVersionToLoad()         { return SELF_MINLOADVERSION; }
     function CreateInstance()           { return "MainClass"; }
     function GetSettings() {
-
+AddSetting({
+        name = "preset",
+        description = "Preset", easy_value = 0, medium_value = 0, hard_value = 0, custom_value = 0,
+        flags = CONFIG_INGAME,
+        min_value = 0, max_value = 3});
+AddLabels("preset", {_0 = "Off", _1 = "Hyperpeak", _2 = "Equal peaks", _3 = "Japan" } );
+AddSetting({
+        name = "base",
+        description = "Passenger rate offset", easy_value = 1, medium_value = 1, hard_value = 1, custom_value = 1,
+        flags = CONFIG_INGAME,
+        min_value = -4, max_value = 6});
         AddSetting({ name = "town_info_mode",
                 description = "Town info display mode",
                 easy_value = 1,
