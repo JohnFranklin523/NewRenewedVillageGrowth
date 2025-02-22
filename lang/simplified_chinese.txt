@@ -32,16 +32,17 @@ STR_SB_CARGOCAT_POP      :最少城镇人口
 STR_SB_CARGOCAT_DECAY    :每月衰减
 STR_SB_CARGOCAT_CARGOT   :货物类型
 STR_SB_WARNING_TITLE     :警告
-STR_SB_WARNING_1         :地图上的城镇数量超出了游戏脚本可以保存的数量.当前的城镇数量为 {SILVER}{NUM}{BLACK} .最大数量为{SILVER}{NUM}{BLACK}. {RED}已禁用游戏脚本.{BLACK}
-STR_SB_WARNING_2         :货物列表初始化失败.存在未知的工业NewGRF导致无法进行程序性的货物列表创建.{RED}已禁用游戏脚本.{BLACK}
-STR_SB_WARNING_3         :货物列表初始化失败.存在工业随机化选项导致无法创建程序性工业类别.{RED}已禁用游戏脚本.{BLACK}
-STR_SB_WARNING_4         :必须将参数{ORANGE}环境->城镇->城镇增长速度 (Environment->Towns->Town groth speed){BLACK}设置为其他选项.{RED}已禁用游戏脚本.{BLACK}
-STR_SB_WELCOME_TITLE     :新发展 (Renewed Village Growth) {NUM}.{NUM}
-STR_SB_WELCOME_DESC      :{SILVER}　　新发展 (RVG) {BLACK}是一款游戏脚本。{ORANGE}RVG改变了OpenTTD中城镇的发展模式{BLACK}且为每个城镇增加了货物需求。更多信息请参阅{ORANGE}README文件{BLACK}。
+STR_SB_WARNING_1         :地图上的城镇数量超出了游戏脚本可以保存的数量。当前的城镇数量为 {SILVER}{NUM}{BLACK}。最大数量为{SILVER}{NUM}{BLACK}。{RED}已禁用游戏脚本。{BLACK}
+STR_SB_WARNING_2         :货物列表初始化失败。存在未知的工业NewGRF导致无法进行程序性的货物列表创建。{RED}已禁用游戏脚本。{BLACK}
+STR_SB_WARNING_3         :货物列表初始化失败。存在工业随机化选项导致无法创建程序性工业类别。{RED}已禁用游戏脚本。{BLACK}
+STR_SB_WARNING_4         :必须将参数{ORANGE}环境->城镇->城镇增长速度 (Environment->Towns->Town groth speed){BLACK}设置为其他选项。{RED}已禁用游戏脚本。{BLACK}
+STR_SB_WELCOME_TITLE     :全新发展 (New Renewed Village Growth) {NUM}.{NUM}
+STR_SB_WELCOME_DESC      :{SILVER}　　全新发展 (NRVG) {BLACK}是一款游戏脚本。{ORANGE}RVG改变了OpenTTD中城镇的发展模式{BLACK}且为每个城镇增加了货物需求。更多信息请参阅{ORANGE}README文件{BLACK}。
 STR_SB_WELCOME_CARGO     :　　当前选择的经济系统"{SILVER}{STRING}{BLACK}"包括{SILVER}{NUM}个类别的货物{BLACK}。要满足一个类别的货物的需求，须将一个或多个该类别的货物运输至{ORANGE}接受该货物类型的城镇附近的车站{BLACK}。若需求被满足的百分比高于{SILVER}{NUM}%{BLACK}将{ORANGE}加速城镇增长{BLACK}。有关货物类别的更多信息，请参阅{ORANGE}货物类别说明书页{BLACK}。
 STR_SB_WELCOME_LIMIT_GROWTH         :{SILVER}　　来自城镇的{CARGO_LIST}{BLACK}若未被运输将{ORANGE}暂停城镇发展{BLACK}。须运输至少{SILVER}{NUM}%{BLACK}的货物以开始{ORANGE}城镇发展{BLACK}。{STRING}
 STR_SB_WELCOME_LIMIT_GROWTH_DELAY   :若此需求未被满足则将在{SILVER}{NUM}个月后暂停城镇发展。
 STR_SB_WELCOME_STATISTICS           :　　为城镇提供大部分货物的公司将成为其{ORANGE}贡献者{BLACK}。该城镇的最大人口之上的每个新人口将计入该公司的{ORANGE}贡献点{BLACK}。请参阅{ORANGE}目标清单{BLACK}中的贡献点和统计信息。
+STR_SB_PEAKS_AND_TROUGHS            :{SILVER}　　早晚高峰模式{BLACK}开启。客流量在{ORANGE}早晚高峰时极大{BLACK}，{ORANGE}凌晨时极小{BLACK}。目前客流模型为 {SILVER}{STRING}{BLACK}。更多信息请查看 https://www.tt-forums.net/viewtopic.php?t=87840。
 STR_SB_WELCOME_ETERNAL_LOVE         :{SILVER}　　永恒之爱 (Eternal Love) {BLACK}将更改公司的{ORANGE}地方评级{BLACK}为{SILVER}{STRING}{BLACK}，每月一次。
 STR_SB_WELCOME_END                  :　　游戏愉快!
 
@@ -111,6 +112,13 @@ STR_ECONOMY_LUMBERJACK          :Lumberjack Industries
 STR_ECOMONY_WRBI                :Wannaroo Basic Industries
 STR_ECONOMY_ITI2                :Improved Town Industries
 STR_ECONOMY_REAL                :Real Industries
+
+##### PEAKS AND TROUGHS #####
+STR_PEAKS_AND_TROUGHS_HYPERPEAK     :Hyperpeak
+STR_PEAKS_AND_TROUGHS_EQUAL_PEAKS   :Equal Peaks
+STR_PEAKS_AND_TROUGHS_JAPAN         :Japan
+STR_PEAKS_AND_TROUGHS_UK            :UK
+STR_PEAKS_AND_TROUGHS_NO_PEAKS      :No Peaks
 
 ##### ETERNAL LOVE #####
 STR_ETERNAL_LOVE_OUTSTANDING    :完美
